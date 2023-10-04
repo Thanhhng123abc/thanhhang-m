@@ -1,0 +1,169 @@
+body{
+    width: 100%;
+   margin: auto;
+    background: white;
+	color: black;
+    font: normal 1em;
+    min-width: 50%;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menutop{
+    width:100%;
+    height:40px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size:20px;
+    min-width: 800px;
+}
+
+#menutop ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+}
+
+#menutop li {
+    color:white;
+    display: inline-block;
+    width:120px;
+    height:40px;
+    line-height: 40px;
+
+}
+
+#menutop a{
+    text-decoration: none;
+    color:white;
+    display: block;
+
+}
+
+#menutop a:hover{
+    background-color:red;
+}
+
+#picturelogo{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 1.2em;
+}
+
+#menu{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 40px;
+}
+
+#menu li{
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+    font-weight: 600;
+}
+
+#menu li>a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 0px 20px ;
+   
+}
+
+#input{
+    float: right;
+    width: 320px;
+    height: 25px;
+    margin: 7px 300px;
+    border-radius: 10px;
+    border: 1px;
+    padding-left: 10px;
+    
+}
+
+#body-left{
+    width: 860px;
+    float: left;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+#body-right{
+    width: 320px;
+    float: left;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+#body-left img{
+    width: 200px;
+    height: 200px;
+}
+
+.paragraph img{
+    float: left;
+    padding-right: 30px;
+}
+
+h3{
+    color:cornflowerblue;
+    font-weight: bold;
+}
+
+#author{
+    padding: 30px;
+    text-align: right;
+}
+
+
+
+#box {
+    border: 2px dotted;
+    background-color:gainsboro;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.paragraph:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.blue{
+    color: blue;   
+}
+.red{
+    color: red;
+}
+
+#refer a{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+#body-right li{
+    list-style-type: none;
+    
+}
+#body-right a{
+    text-decoration: none;
+}
+
+#body-right h3{
+    color: black;
+}
+
+#footer{
+    clear: both;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
